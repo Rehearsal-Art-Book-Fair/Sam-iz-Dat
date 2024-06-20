@@ -28,7 +28,7 @@ searchInput.addEventListener("input", e => {
 
 
 // Fetch data and populate titles
-fetch("../Sam-iz-Dat/script.js")
+fetch("../Sam-iz-Dat/script.json")
   .then(res => res.json())
   .then(data => {
     titles = data.map(title => {
